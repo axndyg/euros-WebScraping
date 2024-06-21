@@ -29,17 +29,25 @@ To train the RandomForestClassifier, we needed to set the relevant deciding fact
 * Team
 * Opponent
 * Stage of Competition
-* Match Type 
+* Match Type
+
+## Results
+
+To be filled in when the competition results have fully come out
 
 ## Take-aways 
 
-A lot ot the code is redunant, or at least could of been fashioned more efficiently. I am keeping the code in its original form as I work on code needed to address how prior code produced data that didn't come out as we needed it later on. The purpose of keeping old code and writing new code to ammend it is to show progress of my understanding with webscraping and formatting it in a desired manner. As well, the practice of ammending the old code is beneficial to continue to learn how to manipualte data through python and it's 
+From this project, I learned how to wrangle with online databases and manipulate relevant html tags to format a DataFrame with the desired data for my RandomForestClassifier model. I am more confident in my Python skills as I had to clean data that was formatted not so friendly in awkard html tables or creviced in odd html tags. As well, I have a greater understanding in the purpose of the packages I used within this project. 
+
+This project was a fun demonstration and learning moment for what my possible work will look like as a Data Scientist post-graduation. As my first practical experience, this was a great teaching moment. A lot of the code was redundant and repeated but I am preserving the nature of the Notebooks to show the progression of my understanding.
+
+From this point, I trust this project will serve as a great basis to my future endeavors and be crucial to my understandings of finding relevant data and modeling them practically. 
 
 ## Crediting 
 
 This project was aided with the teaching from the following YouTube videos and package documentations 
 
->[Normalized Nerd](https://www.youtube.com/watch?v=ZVR2Way4nwQ)
+>[Normalized Nerd](https://www.youtube.com/watch?v=ZVR2Way4nwQ) <br> 
 >[Data Quest](https://www.youtube.com/watch?v=0irmDBWLrco&t=2048s)
 
 ## License 
