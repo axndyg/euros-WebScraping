@@ -36,9 +36,9 @@ To train the RandomForestClassifier, we needed to set the relevant deciding fact
 The model hovered between a 55-73% accruacy rate, with projecting the least confidence in correctly predciting a draw. There is further room for error when deciding the missing spots for the Round of 16. The EUFA page saves three spaces in the Knockout Round for Third-place finisher. The metric I decided was complete random draw. A consequent re-run of the program might produce a new winner based on the outcome of the draw.
 
 With my first model, here is the Euros 2024 Knockout Round fully predicted!
-![Euros Bracket](./graphics/bracket_view.png) 
+<img src="./graphics/bracket_view.png" width=60% height=60%>
 
-And the crowned winner in . . . ![Spain Flag](./graphics/spain_flag.png)
+And the crowned winner in . . . <img src="./graphics/spain_flag.png" width=60% height=60%>
 Spain!
 
 ## Results 
