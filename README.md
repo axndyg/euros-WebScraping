@@ -31,7 +31,17 @@ To train the RandomForestClassifier, we needed to set the relevant deciding fact
 * Stage of Competition
 * Match Type
 
-## Results
+## Performance
+
+The model hovered between a 55-73% accruacy rate, with projecting the least confidence in correctly predciting a draw. There is further room for error when deciding the missing spots for the Round of 16. The EUFA page saves three spaces in the Knockout Round for Third-place finisher. The metric I decided was complete random draw. A consequent re-run of the program might produce a new winner based on the outcome of the draw.
+
+With my first model, here is the Euros 2024 Knockout Round fully predicted!
+![Euros Bracket](./graphics/bracket_view.png) 
+
+And the crowned winner in . . . ![Spain Flag](./graphics/spain_flag.png)
+Spain!
+
+## Results 
 
 To be filled in when the competition results have fully come out
 
@@ -47,8 +57,8 @@ From this point, I trust this project will serve as a great basis to my future e
 
 This project was aided with the teaching from the following YouTube videos and package documentations 
 
->[Normalized Nerd](https://www.youtube.com/watch?v=ZVR2Way4nwQ) <br> 
->[Data Quest](https://www.youtube.com/watch?v=0irmDBWLrco&t=2048s)
+>[Normalized Nerd's Decision Tree Classification](https://www.youtube.com/watch?v=ZVR2Way4nwQ) <br> 
+>[Data Quest's Predict Football Match Winners](https://www.youtube.com/watch?v=0irmDBWLrco)
 
 ## License 
 
