@@ -38,7 +38,8 @@ The model hovered between a 55-73% accruacy rate, with projecting the least conf
 With my first model, here is the Euros 2024 Knockout Round fully predicted!
 <img src="./graphics/bracket_view.png" width=60% height=60%>
 
-And the crowned winner in . . . <img src="./graphics/spain_flag.png" width=60% height=60%>
+And the crowned winner in . . . <br>
+<img src="./graphics/spain_flag.png" width=40% height=40%>
 Spain!
 
 ## Results 
