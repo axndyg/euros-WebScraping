@@ -40,7 +40,7 @@ With my first model, here is the Euros 2024 Knockout Round fully predicted!
 
 And the crowned winner in . . .
 <img src="./graphics/spain_flag.png" width=40% height=40%>
-
+<br> 
 Spain!
 
 ## Results 

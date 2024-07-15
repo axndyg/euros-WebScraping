@@ -1,0 +1,52 @@
+stage,,team_a,res_a,res_b,team_b,date
+Group A,0,Germany,W,L,Scotland,2024-06-14
+Group A,1,Hungary,L,W,Switzerland,2024-06-15
+Group A,2,Germany,D,D,Hungary,2024-06-19
+Group A,3,Scotland,L,W,Switzerland,2024-06-19
+Group A,4,Switzerland,D,D,Germany,2024-06-23
+Group A,5,Scotland,L,W,Hungary,2024-06-23
+Group B,6,Spain,D,D,Croatia,2024-06-15
+Group B,7,Italy,W,L,Albania,2024-06-15
+Group B,8,Croatia,D,D,Albania,2024-06-19
+Group B,9,Spain,D,D,Italy,2024-06-20
+Group B,10,Albania,L,W,Spain,2024-06-24
+Group B,11,Croatia,D,D,Italy,2024-06-24
+Group C,12,Slovenia,L,W,Denmark,2024-06-16
+Group C,13,Serbia,L,W,England,2024-06-16
+Group C,14,Slovenia,W,L,Serbia,2024-06-20
+Group C,15,Denmark,L,W,England,2024-06-20
+Group C,16,England,W,L,Slovenia,2024-06-25
+Group C,17,Denmark,W,L,Serbia,2024-06-25
+Group D,18,Poland,W,L,Netherlands,2024-06-16
+Group D,19,Austria,L,W,France,2024-06-17
+Group D,20,Poland,W,L,Austria,2024-06-21
+Group D,21,Netherlands,W,L,France,2024-06-21
+Group D,22,Netherlands,W,L,Austria,2024-06-25
+Group D,23,France,W,L,Poland,2024-06-25
+Group E,24,Romania,W,L,Ukraine,2024-06-17
+Group E,25,Belgium,D,D,Slovakia,2024-06-17
+Group E,26,Slovakia,L,W,Ukraine,2024-06-21
+Group E,27,Belgium,L,W,Romania,2024-06-22
+Group E,28,Slovakia,L,W,Romania,2024-06-26
+Group E,29,Ukraine,W,L,Belgium,2024-06-26
+Group F,30,Türkiye,W,L,Georgia,2024-06-18
+Group F,31,Portugal,W,L,Czech,2024-06-18
+Group F,32,Georgia,W,L,Czech,2024-06-22
+Group F,33,Türkiye,L,W,Portugal,2024-06-22
+Group F,34,Georgia,L,W,Portugal,2024-06-26
+Group F,35,Czech,L,W,Türkiye,2024-06-26
+Round of 16,36,Germany,W,L,Spain,2024-06-29
+Round of 16,37,Switzerland,W,L,Denmark,2024-06-29
+Round of 16,38,England,L,W,Georgia,2024-06-30
+Round of 16,39,Italy,W,L,Netherlands,2024-06-30
+Round of 16,40,France,L,W,Ukraine,2024-07-01
+Round of 16,41,Portugal,W,L,Hungary,2024-07-01
+Round of 16,42,Romania,L,W,Slovenia,2024-07-02
+Round of 16,43,Poland,W,L,Türkiye,2024-07-02
+Quarter-finals,44,Italy,W,L,Switzerland,2024-07-05
+Quarter-finals,45,Portugal,W,L,Ukraine,2024-07-05
+Quarter-finals,46,Georgia,L,W,Germany,2024-07-06
+Quarter-finals,47,Slovenia,W,L,Poland,2024-07-06
+Semi-finals,48,Italy,W,L,Portugal,2024-07-09
+Semi-finals,49,Slovenia,L,W,Germany,2024-07-10
+Final,50,Italy,L,W,Germany,2024-07-14
