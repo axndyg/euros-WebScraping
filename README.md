@@ -60,11 +60,11 @@ This matchup never occured, but it's placement was a result of group stage perfo
 
 |     | Accuracy | Win Precision | Draw Precision | Loss Precision | 
 | --- | -------- | ------------- | -------------- | -------------- |
-|     | 44%      |  33%          | 43%            | 57%            |
+|  0  | 44%      |  33%          | 43%            | 57%            |
 
 Or, graphed out:
 
-<img src="./graphics/e_perforamnce.png" width=40% height=40%>
+<img src="./graphics/e_performance.png" width=40% height=40%>
 
 Then, with less than 50% accuracy and less than 50% precision (for most predictions), it is safe to say this model wasn't the best performer. Flipping a coin would produce better accuracy. 
 
