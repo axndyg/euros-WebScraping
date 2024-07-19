@@ -17,6 +17,7 @@ Python packages used within this project
 * pandas
 * io
 * scikit-learn
+* matplotlib
 
 The first four packages were deployed to scrape web-page data from [Terrikon](https://terrikon.com/en/), a football database containing all the past Euros outcomes. With them, I then formed a database containing each team's performance against another team and at what stage in the competition. 
 
@@ -31,7 +32,7 @@ To train the RandomForestClassifier, we needed to set the relevant deciding fact
 * Stage of Competition
 * Match Type
 
-## Performance
+## Results
 
 The model hovered between a 55-73% accuracy rate, with projecting the least confidence in correctly predicting a draw. There is further room for error when deciding the missing spots for the Round of 16. The UEFA page saves three spaces in the Knockout Round for Third-place finisher. The metric I decided was complete random draw. A consequent re-run of the program might produce a new winner based on the outcome of the draw. 
 
@@ -43,9 +44,33 @@ And the crowned winner in . . . <br>
 
 Spain!
 
-## Results 
+## Performance  
 
-To be filled in when the competition results have fully come out
+The competition was split into two phases: the Group and Knockout Stages. Each team was guaranteed in the group stage to play three times; one match against each of their three group-mates. These matches I could then predict and accurately compare the prediction to the real results.
+
+However, there is a caveat to the second phase. Placement of teams paired head-to-head for the Round of 16 was entirely dependent on their performance in the group stage. My algorithm expectedly predicted false results, making the Group Stage placements reflect differently than they actually turned out. This meant the margin of error was amplified moving into the Knockout Stage where teams were placed against one another without the match ever having taken place in real life.
+
+For example, takea loot at this cell instance in [trial one](./predictions/match_preds/t1_euros2024.csv) produced by my model: 
+
+| 	  | stage		 | team_a	| res_a  | res_b | team_b  | date       |
+| --- | ------------ | -------- | ------ | ----- | ------- | ---------- |
+| 42  | Round of 16  | Portugal | W	     | L	 | Hungary | 2024-07-01 | 
+
+This matchup never occured, but it's placement was a result of group stage performances. Then it became clear that I could only perform anaylsis on the peroframnce of the model based on known matchups in the group stage. Here are the metrics: 
+
+|     | Accuracy | Win Precision | Draw Precision | Loss Precision | 
+| --- | -------- | ------------- | -------------- | -------------- |
+|     | 44%      |  33%          | 43%            | 57%            |
+
+Or, graphed out:
+
+<img src="./graphics/e_perforamnce.png" width=40% height=40%>
+
+Then, with less than 50% accuracy and less than 50% precision (for most predictions), it is safe to say this model wasn't the best performer. Flipping a coin would produce better accuracy. 
+
+This isn't, however, nothing to learn from. The metrics that decided the model's predictions could have been expanded to more nuanced details. The largest basis of decision for the model was purely the name of the countries playing and at what stage. It did not take a look at the current roster of each team and how that roster has been performing in recent time. 
+
+Although simple, through this model I gained a deeper understanding in the fundamentals of machine learning. However, although its accuracy did not shine, it did strike the right answer. Through multiple trials, it consistently (through random Knockout placements) placed Germany or Italy as the eventual winner, with the very first trial I ran being the only one (so far) to predict the eventual winner, **Spain**
 
 ## Take-aways 
 
