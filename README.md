@@ -23,7 +23,7 @@ The first four packages were deployed to scrape web-page data from [Terrikon](ht
 
 scikit-learn was employed for the RandomForestClassifier that acted as my machine-learning algorithm to predict the results of fixtures in the Euros competition. 
 
-### Metrics
+## Metrics
 
 To train the RandomForestClassifier, we needed to set the relevant deciding factors of a game. For my model, I chose the following:  
 
@@ -64,7 +64,7 @@ This matchup never occured, but it's placement was a result of group stage perfo
 
 Or, graphed out:
 
-<img src="./graphics/e_performance.png" width=40% height=40%>
+<img src="./graphics/e_performance.png">
 
 Then, with less than 50% accuracy and less than 50% precision (for most predictions), it is safe to say this model wasn't the best performer. Flipping a coin would produce better accuracy. 
 
